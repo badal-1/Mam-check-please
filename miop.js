@@ -16,6 +16,6 @@ function k(){
       };
       
       // Initialize Firebase
-      var app = initializeApp(firebaseConfig);
+      firebase.initializeApp(firebaseConfig);
       var l = document.getElementById("usernameholder");
       l.innerHTML= localStorage.getItem("usernsilsostfc.c");
